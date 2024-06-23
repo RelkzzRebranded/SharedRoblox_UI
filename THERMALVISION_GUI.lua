@@ -16,6 +16,8 @@ G2L["3"] = Instance.new("TextLabel")
 --Propeties:
 G2L["0"].Name = [[thermal]]
 G2L["0"].Enabled = true
+G2L["0"].ResetOnSpawn = false
+G2L["0"].IgnoreGuiInset = true
 G2L["0"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 G2L["0"].Parent = game.Players.LocalPlayer.PlayerGui
 
